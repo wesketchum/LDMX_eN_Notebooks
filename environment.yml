@@ -1,0 +1,19 @@
+name: eN_study
+channels:
+  - defaults
+dependencies:
+  - python=3.6.12
+  - numpy=1.19.2
+  - numba=0.53.0
+  - pip=20.3.3
+  - pip:
+    - matplotlib==3.3.4
+    - pandas==1.1.5
+    - pyyaml==5.4.1
+    - scikit-learn==0.24.1
+    - scipy==1.5.4
+    - sklearn==0.0
+    - particle==0.14.0
+    - awkward==1.1.2
+    - coffea==0.7.1
+    - numba-scipy==0.2.0
