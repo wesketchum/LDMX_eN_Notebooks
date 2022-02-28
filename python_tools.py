@@ -14,6 +14,10 @@ import glob
 import time
 import particle
 
+import dask.dataframe as dd
+import dask.array as da
+import dask.bag as db
+
 try:
     import numba
     from numba import jit, int32, float32
